@@ -1,6 +1,9 @@
-# DSI-Approximate-Multiplier
 
-This repository provides a VHDL implementation of the DSI approximate multiplier. The design divides the multiplier into three regions: Direct (D), Search (S), and Ignore (I). The Direct region is processed exactly, the Search region is approximated using shifts and addition, and the contribution of the least significant bits in the Ignore region is omitted.
+# Configurable DSI Partitioned Approximate Multiplier
+
+This repository provides a VHDL implementation of the DSI approximate multiplier described by Fahimeh Hajizadeh et al. in *Configurable DSI partitioned approximate multiplier*. The implementation follows the hardware design presented in the paper and produces similar numerical results.
+
+The design divides the multiplier into three regions: Direct (D), Search (S), and Ignore (I). The Direct region is processed exactly, the Search region is approximated using shifts and addition, and the contribution of the least significant bits in the Ignore region is omitted.
 VHDL implementation of the DSI approximate multiplier, following the hardware design described in the original paper and producing similar numerical results.
 
 
